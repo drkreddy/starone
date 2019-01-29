@@ -1,0 +1,3 @@
+spring.security.oauth2.client.registration.google.client-id=733528709126-lc24tc346le24h91o1ke7vcpn0auujju.apps.googleusercontent.com
+spring.security.oauth2.client.registration.google.client-secret=sNoWiWOndaO9K0ONny0brjMR
+server.port=8081
