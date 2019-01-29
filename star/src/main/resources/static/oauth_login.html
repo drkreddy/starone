@@ -1,0 +1,12 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head></head>
+<body>
+<h3>Login with:${msg}</h3>
+<table>
+    <p th:each="url : ${urls}">
+        <a th:text="${url.key}" th:href="${url.value}">Client</a>
+        <a href="/oauth2/authorization/google">Google</a>
+    </p>
+</table>
+</body>
+</html>
